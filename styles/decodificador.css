@@ -4,9 +4,24 @@
     --font--primaria: 'Inter', sans-serif;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: #F3F5FC ;
+    box-sizing: border-box;
 }
+
+.container{
+    padding: 10% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
 .texto-input{
     color: #0A3871;
     font-family: var(--font--primaria);
@@ -26,4 +41,19 @@ body{
     border-radius: 24px;
     color: white;
     background-color: #0A3871;
+}
+
+.descriptografar-button{
+    font-family: var(--font--primaria);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    width: 328px;
+    padding: 24px;
+    justify-content: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid #0A3871;
+    background: #D8DFE8;
 }
