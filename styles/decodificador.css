@@ -15,6 +15,13 @@ body{
     box-sizing: border-box;
 }
 
+.icone-alura{
+    display: flex;
+    bottom: 500px;
+    width: 7.5rem;
+    height: 3rem;
+}
+
 .container{
     padding: 40px;
     display: flex;
