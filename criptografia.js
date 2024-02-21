@@ -1,5 +1,5 @@
 function criptografar(texto) {
-    var mapa = {
+    var letras = {
         'e': 'enter',
         'i': 'imes',
         'a': 'ai',
@@ -10,8 +10,8 @@ function criptografar(texto) {
     var textoCriptografado = '';
     for (var i = 0; i < texto.length; i++) {
         var letra = texto[i];
-        if (mapa[letra]) {
-            textoCriptografado += mapa[letra];
+        if (letras[letra]) {
+            textoCriptografado += letras[letra];
         } else {
             textoCriptografado += letra;
         }
