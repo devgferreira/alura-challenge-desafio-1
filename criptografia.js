@@ -25,6 +25,7 @@ function criptografarTexto() {
     var resultado = criptografar(texto);
     document.getElementById('foto-svg').style.display = 'none';
     document.getElementById('texto-criptograda-descriptografado').style.display = 'none';
+    document.getElementById('texto-mensagem-nao-encontrada').style.display = 'none';
     document.getElementById('resultado').innerText = resultado;
 
 }
