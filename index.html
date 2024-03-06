@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/decodificador.css">
     <script src="criptografia.js"></script>
     <script src="descriptografar.js"></script>
+    <script src="copiarTexto.js"></script>
 </head>
 <body>
    <header>
@@ -20,12 +21,13 @@
         <section class="container__conteudo">
             <input class="container__conteudo__texto__input" id="texto" type="text" placeholder="Digite seu texto"/>
             
-
+            <h5 class="container__conteudo__texto__h5">Não pode letras maiúsculas e nem acento nas palavras.</h5>
             <div class="container__conteudo__buttons">
+                
                 <button class="criptografar__conteudo__buttons_criptografar" onclick="criptografarTexto()">Criptografar</button>
                 <button class="criptografar__conteudo__buttons_descriptografar" onclick="descriptografarTexto()">Descriptografar</button>
             </div>
-               
+        
         </section>  
         <label class="container__texto__label" >
             <svg id="foto-svg" class="container__texto__label__svg" width="336" height="304" viewBox="0 0 336 304" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -171,6 +173,8 @@
             <p id="resultado" class="container__texto__label__subtitulo"></p>
             <br>
             <p id="texto-criptograda-descriptografado" class="container__texto__label__paragrafo">Digite um texto que você deseja criptografar ou descriptografar.</p>
+
+            <button class="container__texto__label__button" onclick="copiarTexto()">Copiar</button>
            
         </label>
     </main>
