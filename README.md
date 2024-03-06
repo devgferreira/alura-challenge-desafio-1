@@ -1,37 +1,38 @@
-# Desafio Alura 1 - Decodificador de Yexto
+# Desafio Alura 1 - Decodificador de Texto
 
  
-## Concepção do Desafio
-O desafio que a __Alura__ propois foi para fazer um Decodificador de Texto.
-
-A ideia do desafio é criar uma API que criptografa textos e descriptografia o mesmo com as seguintes regras: 
-- As "chaves" de criptografia que utilizaremos são:
-     - A letra "e" é convertida para "enter"
-     - A letra "i" é convertida para "imes"
-     - A letra "a" é convertida para "ai"
-     - A letra "o" é convertida para "ober"
-     - A letra "u" é convertida para "ufat"
-
-Tal abordagem possibilita a criptografia e descriptografia de textos.
+## Sobre o Desafio
+Este projeto é um desafio proposto pela Alura para a criação de um Decodificador de Texto. O objetivo é desenvolver uma API que seja capaz de criptografar e descriptografar textos seguindo regras específicas.
 
 
-## Tecnlogias Usadas
+## Regras de Criptografia
+As “chaves” de criptografia utilizadas são as seguintes:
 
-__JavaScript__: Linguagem de programação.
-__Css__: Linguagem de design gráfico.
-__Html__: Linguagem de marcação de texto.
+A letra “e” é convertida para “enter”
+A letra “i” é convertida para “imes”
+A letra “a” é convertida para “ai”
+A letra “o” é convertida para “ober”
+A letra “u” é convertida para “ufat”
+Essas regras permitem a criptografia e descriptografia de textos.
 
-Recomendo que você tenha um breve conhecimento dessas tecnlogias.
+## Tecnologias Utilizadas
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+- __JavaScript__: Linguagem de programação.
+- __Css__: Linguagem de design gráfico.
+- __Html__: Linguagem de marcação de texto.
+
+É recomendável ter um conhecimento básico dessas tecnologias para entender melhor o projeto.
 
 ## Como Iniciar o Programa
 
 Uso de uma IDE: Visual Studio Code.
 
-Instalar a extensão dentro do Visual Studio Code: LiveCode, essa extensão possibilita que você rode o codigo sem a necessidade de abrir o arquivo html.
-
+Para iniciar o projeto, você precisará do Visual Studio Code (ou qualquer IDE de sua preferência) e da extensão LiveCode. A extensão LiveCode permite que você execute o código sem a necessidade de abrir o arquivo HTML.
 
 ## Como usar o Programa
+Ao usar o programa, tenha em mente as seguintes orientações:
 
-  - Deve utlizar apenas com letras minúsculas
-  - Não devem ser utilizados letras com acentos nem caracteres especiais
+- Utilize apenas letras minúsculas.
+- Não utilize letras com acentos ou caracteres especiais.
 
