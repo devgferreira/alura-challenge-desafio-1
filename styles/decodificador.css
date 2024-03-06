@@ -39,7 +39,7 @@ body{
     height: 100vh;
 }
 
-.texto-input{
+.container__conteudo__texto__input{
     display: flex;
     position: absolute;
     top: 200px;
@@ -54,11 +54,52 @@ body{
     gap: 32.5px;
    
 }
-.texto-input::placeholder{
+.container__conteudo__texto__input::placeholder{
     color: var(--cor--primaria);
 }
 
-.texto-label{
+.container__conteudo__buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: auto;
+    width: 42.5rem;
+    gap: 1.5rem;
+}
+
+.criptografar__conteudo__buttons_criptografar{
+    font-family: var(--font--primaria);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 20.5rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    gap: 0.5rem;
+    color: white;
+    background-color: var(--cor--primaria);
+}
+
+.criptografar__conteudo__buttons_descriptografar{
+    font-family: var(--font--primaria);
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 20.5rem;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    gap: 0.5rem;
+    border: 1px solid var(--cor--primaria);
+    background: #D8DFE8;
+}
+
+
+.container__texto__label{
     display: flex;
     justify-content: center;
     text-align: center;
@@ -74,7 +115,7 @@ body{
 
 
 }
-.texto-label__subtitulo{
+.container__texto__label__subtitulo{
     color:  #343A40;
     text-align: center;
     font-family: var(--font--primaria);
@@ -83,7 +124,7 @@ body{
     font-weight: 700;
     line-height: 120%; 
 }
-.texto-label__paragrafo{
+.container__texto__label__paragrafo{
     color: #495057;
     text-align: center;
     font-family: var(--font--primaria);;
@@ -92,44 +133,6 @@ body{
     line-height: 150%; 
 }
 
-.container__conteudo__buttons{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: auto;
-    width: 42.5rem;
-    gap: 1.5rem;
-}
-.criptografar-button{
-    font-family: var(--font--primaria);
-    font-size: 16px;
-    font-weight: 400;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    width: 20.5rem;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-    gap: 0.5rem;
-    color: white;
-    background-color: var(--cor--primaria);
-}
-
-.descriptografar-button{
-    font-family: var(--font--primaria);
-    font-size: 16px;
-    font-weight: 400;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    width: 20.5rem;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-    gap: 0.5rem;
-    border: 1px solid var(--cor--primaria);
-    background: #D8DFE8;
-}
 
 .rodape{
     padding: 28px;
